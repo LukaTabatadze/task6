@@ -1,0 +1,87 @@
+@font-face {
+    font-family: FiraGO; 
+    src: url(./font/FiraGO-Regular.woff);
+
+}
+*{box-sizing: border-box;}
+body{
+font-family: FiraGO;
+    display: flex;
+align-items: center;
+justify-content: center;
+height: 140vh;
+background-color: #ffffff;
+}
+.card{background: #ffffff;
+border: 2px solid #f2f2f2;
+border-radius: 12px;
+padding-left: 47px;
+padding-right: 51px;
+padding-bottom: 24px;
+padding-top: 40px;
+height: 800px;
+width: 718px;}
+h1{margin-left: 2px;
+    margin-top: 20px;
+font-family: FiraGO;
+font-weight: 800;
+font-size: 26px;
+line-height: 31px;
+font-stretch: condensed;
+}
+.input_item1,.input_item2,.input_item3,.input_item4,.input_item5,.input_item6,
+{
+margin-left: 51px;
+}
+.input_item1,.input_item2,.input_item3,.input_item4,.input_item5,.input_item6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;}
+    .input_item1,.input_item2,.input_item3,.input_item4,.input_item5{
+        margin-top: 13px;
+    }
+    .input_subitem1,.input_subitem2,.input_subitem3,.input_subitem4,.input_subitem5,.input_subitem6{
+        margin-top: 5px;
+border: 2px solid #f2f2f2;
+border-radius: 7px;}
+.input_subitem1,.input_subitem2,.input_subitem3,.input_subitem5,.input_subitem6
+{width: 616px;
+height: 50px;
+}
+.input_subitem4{height: 148px;
+    width: 616px;
+resize: none;
+r
+}
+
+.card_footer{
+    display: flex;
+    align-items:center;
+}
+
+.btn a {
+    font-family: FiraGO;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    display: block;
+}
+
+.btn{
+    width: 205px;
+    height: 47px;
+    border: 1px solid transparent;
+    background: #ffdd04;
+    border-radius: 15px;
+    font-family: FiraGO;
+    font-style: bold;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 19px;
+    margin-left:411px;
+    margin-top: 13px;
+    }
